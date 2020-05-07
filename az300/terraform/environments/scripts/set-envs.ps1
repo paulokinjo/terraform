@@ -1,0 +1,7 @@
+$Env:product     = "az300"
+$Env:customer    = "dev"
+$Env:environment = "iac"
+$Env:location = "southeastasia"
+$Env:resource_group = "${Env:product}-${Env:customer}-${Env:environment}"
+$Env:storage_account = "${Env:product}${Env:customer}${Env:environment}"
+$Env:container = "${Env:resource_group}-terraform"
