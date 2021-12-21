@@ -1,3 +1,4 @@
 *dev.yaml
 .terraform
 *.tfstate*
+*.tfplan*
