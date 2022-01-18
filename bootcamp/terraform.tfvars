@@ -1,12 +1,5 @@
-vpc_cidr_block    = "10.0.0.0/16"
-subnet_cidr_block = "10.0.10.0/24"
-cidr_blocks = [
-  {
-    name       = "vpc",
-    cidr_block = "10.0.0.0/16"
-  },
-  {
-    name       = "subnet",
-    cidr_block = "10.0.10.0/24"
-  }
-]
+vpc_cidr_block      = "10.0.0.0/16"
+subnet_cidr_block   = "10.0.10.0/24"
+env_prefix          = "bootcamp"
+instance_type       = "t2.micro"
+public_key_location = "/home/vagrant/.ssh/id_rsa.pub"
