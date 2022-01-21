@@ -9,3 +9,6 @@ sudo apt-get update
 
 echo "[Task - 4] Install Terraform"
 sudo apt-get install terraform
+
+echo "[Task - 5] Clone terraform repository"
+git clone https://github.com/paulokinjo/terraform
